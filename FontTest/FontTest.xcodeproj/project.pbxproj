@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8472FFB427B4107D002E4343 /* Proxima Nova Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8472FFB027B4107C002E4343 /* Proxima Nova Semibold.otf */; };
+		8472FFB527B4107D002E4343 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8472FFB127B4107C002E4343 /* Proxima Nova Bold.otf */; };
+		8472FFB727B4107D002E4343 /* Proxima Nova.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8472FFB327B4107D002E4343 /* Proxima Nova.otf */; };
+		8472FFB927B41658002E4343 /* Proxima Nova It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8472FFB827B41658002E4343 /* Proxima Nova It.otf */; };
 		D33127DB27B1A29B00A2DF3B /* FontTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33127DA27B1A29B00A2DF3B /* FontTestApp.swift */; };
 		D33127DD27B1A29B00A2DF3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33127DC27B1A29B00A2DF3B /* ContentView.swift */; };
 		D33127DF27B1A29C00A2DF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33127DE27B1A29C00A2DF3B /* Assets.xcassets */; };
 		D33127E227B1A29C00A2DF3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33127E127B1A29C00A2DF3B /* Preview Assets.xcassets */; };
-		D33127E927B1A41600A2DF3B /* ProximaNova-Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D33127E827B1A41600A2DF3B /* ProximaNova-Bold Italic.otf */; };
 		D33127EC27B1AB8200A2DF3B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33127EB27B1AB8200A2DF3B /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8472FFB027B4107C002E4343 /* Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Semibold.otf"; path = "../../../../../../../Desktop/Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		8472FFB127B4107C002E4343 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Bold.otf"; path = "../../../../../../../Desktop/Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		8472FFB327B4107D002E4343 /* Proxima Nova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova.otf"; path = "../../../../../../../Desktop/Proxima Nova.otf"; sourceTree = "<group>"; };
+		8472FFB827B41658002E4343 /* Proxima Nova It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova It.otf"; sourceTree = "<group>"; };
 		D33127D727B1A29B00A2DF3B /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33127DA27B1A29B00A2DF3B /* FontTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestApp.swift; sourceTree = "<group>"; };
 		D33127DC27B1A29B00A2DF3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D33127DE27B1A29C00A2DF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33127E127B1A29C00A2DF3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D33127E827B1A41600A2DF3B /* ProximaNova-Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold Italic.otf"; sourceTree = "<group>"; };
 		D33127EA27B1AAE800A2DF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D33127EB27B1AB8200A2DF3B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +66,10 @@
 				D33127DA27B1A29B00A2DF3B /* FontTestApp.swift */,
 				D33127DC27B1A29B00A2DF3B /* ContentView.swift */,
 				D33127DE27B1A29C00A2DF3B /* Assets.xcassets */,
-				D33127E827B1A41600A2DF3B /* ProximaNova-Bold Italic.otf */,
+				8472FFB127B4107C002E4343 /* Proxima Nova Bold.otf */,
+				8472FFB827B41658002E4343 /* Proxima Nova It.otf */,
+				8472FFB027B4107C002E4343 /* Proxima Nova Semibold.otf */,
+				8472FFB327B4107D002E4343 /* Proxima Nova.otf */,
 				D33127EB27B1AB8200A2DF3B /* Roboto-Bold.ttf */,
 				D33127E027B1A29C00A2DF3B /* Preview Content */,
 			);
@@ -134,9 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33127E227B1A29C00A2DF3B /* Preview Assets.xcassets in Resources */,
+				8472FFB727B4107D002E4343 /* Proxima Nova.otf in Resources */,
+				8472FFB927B41658002E4343 /* Proxima Nova It.otf in Resources */,
 				D33127DF27B1A29C00A2DF3B /* Assets.xcassets in Resources */,
 				D33127EC27B1AB8200A2DF3B /* Roboto-Bold.ttf in Resources */,
-				D33127E927B1A41600A2DF3B /* ProximaNova-Bold Italic.otf in Resources */,
+				8472FFB427B4107D002E4343 /* Proxima Nova Semibold.otf in Resources */,
+				8472FFB527B4107D002E4343 /* Proxima Nova Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

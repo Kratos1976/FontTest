@@ -4,7 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ProximaNova-Bold Italic.otf</string>
+		<string>Proxima Nova.otf</string>
+		<string>Proxima Nova Semibold.otf</string>
+		<string>Proxima Nova Bold.otf</string>
+		<string>Proxima Nova It.otf</string>
 		<string>Roboto-Bold.ttf</string>
 	</array>
 </dict>
