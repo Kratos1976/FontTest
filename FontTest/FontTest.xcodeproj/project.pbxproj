@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8472FFB027B4107C002E4343 /* Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Semibold.otf"; path = "../../../../../../../Desktop/Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
-		8472FFB127B4107C002E4343 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Bold.otf"; path = "../../../../../../../Desktop/Proxima Nova Bold.otf"; sourceTree = "<group>"; };
-		8472FFB327B4107D002E4343 /* Proxima Nova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova.otf"; path = "../../../../../../../Desktop/Proxima Nova.otf"; sourceTree = "<group>"; };
+		8472FFB027B4107C002E4343 /* Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		8472FFB127B4107C002E4343 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		8472FFB327B4107D002E4343 /* Proxima Nova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova.otf"; sourceTree = "<group>"; };
 		8472FFB827B41658002E4343 /* Proxima Nova It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova It.otf"; sourceTree = "<group>"; };
 		D33127D727B1A29B00A2DF3B /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33127DA27B1A29B00A2DF3B /* FontTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestApp.swift; sourceTree = "<group>"; };
