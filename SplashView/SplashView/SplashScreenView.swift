@@ -9,9 +9,9 @@ import SwiftUI
 
 struct SplashScreenView: View {
     @State private var isActive = false
-    @State private var animated = false
-    @State private var size = 0.9
-    @State private var opacity = 8.9
+    @State private var opacityLogo: Double = 0
+    @State private var opacityText: Double = 0
+    @State private var positionX = 100
 
     var body: some View {
         if isActive {
@@ -20,27 +20,33 @@ struct SplashScreenView: View {
             VStack {
                 VStack {
                     Image("logo_primary")
-                    Image("img_lets_go")
-                }
-                .scaleEffect(size)
-                .opacity(opacity)
-                .onAppear {
-                    withAnimation(.easeIn(duration: 1.8)) {
-                        self.size = 1.8
-                        self.opacity = 3.0
+                        .opacity(opacityLogo)
+                        .offset(x: CGFloat(positionX))
+                        .animation(Animation.easeIn(duration: 1.5).delay(0.5).speed(2))
+                        .onAppear() {
+                        positionX += -95
+                        opacityLogo = 1.0
+                    }
+
+                    Image("img_lets_go").opacity(opacityText)
+                        .onAppear() {
+                        withAnimation(.easeIn(duration: 1.0).delay(0.8)) {
+                            opacityText = 1.0
+                        }
+                    }
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.3) {
+                            isActive = true
+                        }
                     }
                 }
             }
-            .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                self.isActive = true
-            }
         }
     }
-}
 }
 struct SplashScreenView_Previews: PreviewProvider {
     static var previews: some View {
         SplashScreenView()
     }
 }
+
