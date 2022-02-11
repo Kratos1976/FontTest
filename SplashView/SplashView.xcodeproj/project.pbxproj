@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D37868DF27B6EEF100813CB7 /* Ferrari image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */; };
+		D37868E127B6FBAF00813CB7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E027B6FBAF00813CB7 /* CardView.swift */; };
+		D37868E327B70F6400813CB7 /* LoginFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E227B70F6400813CB7 /* LoginFooterView.swift */; };
 		D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1227B30049009CCCCB /* SplashViewApp.swift */; };
 		D39B4C1527B30049009CCCCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1427B30049009CCCCB /* ContentView.swift */; };
 		D39B4C1727B3004A009CCCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1627B3004A009CCCCB /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari image.jpeg"; sourceTree = "<group>"; };
+		D37868E027B6FBAF00813CB7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D37868E227B70F6400813CB7 /* LoginFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFooterView.swift; sourceTree = "<group>"; };
 		D39B4C0F27B30049009CCCCB /* SplashView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39B4C1227B30049009CCCCB /* SplashViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewApp.swift; sourceTree = "<group>"; };
 		D39B4C1427B30049009CCCCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,8 +67,11 @@
 				D39B4C1427B30049009CCCCB /* ContentView.swift */,
 				D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */,
 				D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */,
+				D37868E027B6FBAF00813CB7 /* CardView.swift */,
 				D39B4C1627B3004A009CCCCB /* Assets.xcassets */,
+				D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */,
 				D39B4C1827B3004A009CCCCB /* Preview Content */,
+				D37868E227B70F6400813CB7 /* LoginFooterView.swift */,
 			);
 			path = SplashView;
 			sourceTree = "<group>";
@@ -135,6 +144,7 @@
 			files = (
 				D39B4C1A27B3004A009CCCCB /* Preview Assets.xcassets in Resources */,
 				D39B4C1727B3004A009CCCCB /* Assets.xcassets in Resources */,
+				D37868DF27B6EEF100813CB7 /* Ferrari image.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +158,9 @@
 				D39B4C1527B30049009CCCCB /* ContentView.swift in Sources */,
 				D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */,
 				D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */,
+				D37868E327B70F6400813CB7 /* LoginFooterView.swift in Sources */,
 				D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */,
+				D37868E127B6FBAF00813CB7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
