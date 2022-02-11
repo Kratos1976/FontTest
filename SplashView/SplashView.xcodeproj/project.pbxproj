@@ -12,6 +12,7 @@
 		D39B4C1727B3004A009CCCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1627B3004A009CCCCB /* Assets.xcassets */; };
 		D39B4C1A27B3004A009CCCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */; };
 		D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */; };
+		D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		D39B4C2227B32DCE009CCCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D39B4C1227B30049009CCCCB /* SplashViewApp.swift */,
 				D39B4C1427B30049009CCCCB /* ContentView.swift */,
 				D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */,
+				D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */,
 				D39B4C1627B3004A009CCCCB /* Assets.xcassets */,
 				D39B4C1827B3004A009CCCCB /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39B4C1527B30049009CCCCB /* ContentView.swift in Sources */,
+				D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */,
 				D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */,
 				D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */,
 			);
