@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import HertzUI
 
 struct SplashScreenView: View {
     @State private var isActive = false
@@ -15,6 +16,7 @@ struct SplashScreenView: View {
 
     var body: some View {
         if isActive {
+//            TypographyView()
             LoginScreen()
         } else {
             VStack {

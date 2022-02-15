@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import HertzUI
 
 @main
 struct SplashViewApp: App {
+    init() {
+        HertzUI.registerFonts()
+    }
+
     var body: some Scene {
         WindowGroup {
             SplashScreenView()

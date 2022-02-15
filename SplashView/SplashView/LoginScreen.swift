@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import HertzUI
 
 struct LoginScreen: View {
     @State var username: String = ""
@@ -50,7 +51,8 @@ struct LogoImage: View {
 struct LogingButtonContent: View {
     var body: some View {
         Text("Log In")
-            .font(.headline)
+            .font(.button())
+//            .font(.button())
             .foregroundColor(.black)
             .padding()
             .frame(width: 279, height: 41)

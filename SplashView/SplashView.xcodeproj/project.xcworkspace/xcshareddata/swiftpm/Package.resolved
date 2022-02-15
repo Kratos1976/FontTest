@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HertzUI",
+        "repositoryURL": "https://github.hertz.com/Hertz-DT/HertzUI_iOS",
+        "state": {
+          "branch": "develop",
+          "revision": "a75b4c49080bab15ffe15f72e722750ceda9b9c6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

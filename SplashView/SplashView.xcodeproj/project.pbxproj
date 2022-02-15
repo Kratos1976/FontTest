@@ -15,6 +15,8 @@
 		D39B4C1727B3004A009CCCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1627B3004A009CCCCB /* Assets.xcassets */; };
 		D39B4C1A27B3004A009CCCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */; };
 		D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */; };
+		D3BF305D27BAEBD80093466A /* HertzUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3BF305C27BAEBD80093466A /* HertzUI */; };
+		D3BF306127BB109D0093466A /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF306027BB109D0093466A /* TypographyView.swift */; };
 		D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,7 @@
 		D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		D39B4C2227B32DCE009CCCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3BF306027BB109D0093466A /* TypographyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
 		D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BF305D27BAEBD80093466A /* HertzUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +72,11 @@
 				D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */,
 				D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */,
 				D37868E027B6FBAF00813CB7 /* CardView.swift */,
+				D3BF306027BB109D0093466A /* TypographyView.swift */,
+				D37868E227B70F6400813CB7 /* LoginFooterView.swift */,
 				D39B4C1627B3004A009CCCCB /* Assets.xcassets */,
 				D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */,
 				D39B4C1827B3004A009CCCCB /* Preview Content */,
-				D37868E227B70F6400813CB7 /* LoginFooterView.swift */,
 			);
 			path = SplashView;
 			sourceTree = "<group>";
@@ -98,8 +103,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				D3BF305F27BB0D850093466A /* PBXTargetDependency */,
 			);
 			name = SplashView;
+			packageProductDependencies = (
+				D3BF305C27BAEBD80093466A /* HertzUI */,
+			);
 			productName = SplashView;
 			productReference = D39B4C0F27B30049009CCCCB /* SplashView.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +137,9 @@
 				Base,
 			);
 			mainGroup = D39B4C0627B30049009CCCCB;
+			packageReferences = (
+				D3BF305B27BAEBD80093466A /* XCRemoteSwiftPackageReference "HertzUI_iOS" */,
+			);
 			productRefGroup = D39B4C1027B30049009CCCCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,11 +172,19 @@
 				D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */,
 				D37868E327B70F6400813CB7 /* LoginFooterView.swift in Sources */,
 				D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */,
+				D3BF306127BB109D0093466A /* TypographyView.swift in Sources */,
 				D37868E127B6FBAF00813CB7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BF305F27BB0D850093466A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = D3BF305E27BB0D850093466A /* HertzUI */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D39B4C1B27B3004A009CCCCB /* Debug */ = {
@@ -296,6 +316,7 @@
 				INFOPLIST_FILE = SplashView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
@@ -325,6 +346,7 @@
 				INFOPLIST_FILE = SplashView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
@@ -363,6 +385,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3BF305B27BAEBD80093466A /* XCRemoteSwiftPackageReference "HertzUI_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.hertz.com/Hertz-DT/HertzUI_iOS";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3BF305C27BAEBD80093466A /* HertzUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3BF305B27BAEBD80093466A /* XCRemoteSwiftPackageReference "HertzUI_iOS" */;
+			productName = HertzUI;
+		};
+		D3BF305E27BB0D850093466A /* HertzUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3BF305B27BAEBD80093466A /* XCRemoteSwiftPackageReference "HertzUI_iOS" */;
+			productName = HertzUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D39B4C0727B30049009CCCCB /* Project object */;
 }

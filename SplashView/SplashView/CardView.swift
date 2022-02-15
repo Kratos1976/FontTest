@@ -6,42 +6,83 @@
 //
 
 import SwiftUI
+import HertzUI
+
+
 
 struct CardView: View {
-    @State var username: String = ""
-    @State var password: String = ""
+    // MARK: - PROPERTY
+    @State private var username: String = ""
+    @State private var password: String = ""
+    @State private var isPasswordShow: Bool = false
+
+    //TODO: move this to HertzUI
+    var showHidePasswordButton: some View {
+        HStack {
+            Button(action: {
+                withAnimation {
+                    $isPasswordShow.wrappedValue.toggle()
+                }
+
+            }, label: {
+                Image(systemName: $isPasswordShow.wrappedValue ? "eye.slash" : "eye").foregroundColor(.monochrome500)
+            })
+
+            Text($isPasswordShow.wrappedValue ? "Hide" : "Show")
+                .font(.body4Regular())
+                .frame(width: 30, height: 20, alignment: .center)
+                .foregroundColor(.monochrome700)
+        }
+    }
+
+    // MARK: - BODY
     var body: some View {
+        VStack {
+            VStack(alignment: .leading) {
 
-        VStack(alignment: .leading) {            
-            Text("Log into Gold Plus Rewards.")
-
-            TextField("Member ID or username", text: $username)
-                .padding(EdgeInsets(top: 20, leading: 24, bottom: 20, trailing: 24))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 4)
-                                .stroke(Color.gray)
-                )
-            SecureField("Password", text: $password)
-                .padding(EdgeInsets(top: 20, leading: 24, bottom: 20, trailing: 24))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 4)
-                               .stroke(Color.gray)
-                )
-                .padding(.top, 12)
-            Button(action: { print("Button Tapped") }) {
-                LogingButtonContent()
+                Text("Log into Gold Plus Rewards.")
+                    .font(.heading6Bold())
+                    .padding(.bottom, 10)
+//                .padding(.leading, 24)
             }
-            .padding(.top, 20)
-            LoginFooterView()
 
+            // MARK: - HEADER
+
+            // MARK: - FORM INPUT
+
+            // MARK: - FORM SUBMIT
+
+            // MARK: - FOOTER
+//
+//            VStack(alignment: .leading) {
+//                Text("Log into Gold Plus Rewards.")
+//                    .font(.heading6Bold())
+//                    .padding(.bottom, 15)
+//            }
+
+            VStack {
+
+                TextInputView($username, placeholder: "Member ID or username", prompt: "")
+
+                TextInputView($password, placeholder: "Password", prompt: "")
+                    .rightView({showHidePasswordButton})
+                    .isSecureTextEntry(!isPasswordShow)
+                    .padding(0)
+
+                ButtonView.primary("Log in") {
+                    print("Primary Button Pressed")
+                }.font(.button())
+                .padding(.top, 0)
+
+                LoginFooterView()
+
+            }
         }
         .padding(24)
-        .frame(width: 327, height: 452)
+        .frame(width: UIScreen.main.bounds.width - 48, height: 490)
         .background(Color.white)
         .cornerRadius(4)
         .shadow(radius: 5)
-
-        
     }
 }
 
