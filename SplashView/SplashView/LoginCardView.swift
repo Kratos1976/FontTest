@@ -37,46 +37,37 @@ struct LoginCardView: View {
 
     // MARK: - BODY
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
 
             // MARK: - HEADER
-
-            VStack(alignment: .leading) {
+            VStack {
                 Text("Log into Gold Plus Rewards.")
                     .font(.heading6Bold())
                     .padding(.init(top: 24, leading: 24, bottom: 12, trailing: 24))
-                    .padding(.leading, -90)
             }
 
             // MARK: - FORM INPUT
-
-            VStack {
+            VStack(alignment: .center) {
                 TextInputView($username, placeholder: "Member ID or username", prompt: "")
-                    .padding(.bottom, -23)
-
-
 
                 TextInputView($password, placeholder: "Password", prompt: "")
                     .rightView({ showHidePasswordButton })
                     .isSecureTextEntry(!isPasswordShow)
 
                 // MARK: - FORM SUBMIT
-
                 ButtonView.primary("Log in") {
                     print("Primary Button Pressed")
                 }.font(.button())
-                    .padding(.top, -15)
 
                 // MARK: - FOOTER
-
                 LoginCardBottonView()
             }
         }
-            .padding(24)
-            .frame(width: UIScreen.main.bounds.width - 48, height: 490)
-            .background(Color.white)
-            .cornerRadius(4)
-            .shadow(radius: 5)
+        .padding(24)
+        .frame(width: UIScreen.main.bounds.width - 48, height: 490)
+        .background(Color.white)
+        .cornerRadius(4)
+        .shadow(radius: 5)
     }
 }
 

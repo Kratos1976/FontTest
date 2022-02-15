@@ -34,12 +34,8 @@ struct LoginCardBottonView: View {
                 Link("Forgot Password",
                       destination: URL(string: "https://www.example.com/TOS.html")!)
                     .font(.textCTASM())
-
+                    
                 ExDivider()
-//                Divider()
-//                    .font(.heading6Bold())
-//                    .foregroundColor(.monochrome300)
-//                    .padding(.init(top: 0, leading: 10, bottom: 0, trailing: 10))
 
                 Link("Forgot member ID",
                       destination: URL(string: "https://www.example.com/TOS.html")!)

@@ -15,13 +15,11 @@ struct LoginScreen: View {
     @State private var shouldShowLoginAlert: Bool = false
 
     var body: some View {
-
         GeometryReader { geometry in
             ZStack {
-                
-                Image("Ferrari image")
+                Image("Login Logo Car")
                     .resizable()
-                    .aspectRatio(geometry.size, contentMode: .fill)
+                    .aspectRatio(contentMode: .fill)
                     .edgesIgnoringSafeArea(.all)
 
                 VStack(alignment: .leading) {
@@ -29,10 +27,7 @@ struct LoginScreen: View {
                         .padding(.bottom, 30)
                     LoginCardView()
                 }
-
             }
-
-
         }
     }
 }
