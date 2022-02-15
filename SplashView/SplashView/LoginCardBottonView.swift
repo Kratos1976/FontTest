@@ -1,5 +1,5 @@
 //
-//  LoginFooterView.swift
+//  LoginCardBottonView.swift
 //  SplashView
 //
 //  Created by skynet on 11/2/22.
@@ -27,7 +27,7 @@ struct ExDivider: View {
     }
 }
 
-struct LoginFooterView: View {
+struct LoginCardBottonView: View {
     var body: some View {
         VStack {
             HStack {
@@ -67,12 +67,13 @@ struct LoginFooterView: View {
             Link("Continue as guest",
                   destination: URL(string: "https://www.example.com/TOS.html")!)
                 .font(.textCTASM())
+                .padding(.bottom, 50)
         }
     }
 }
 
-struct LoginFooterView_Previews: PreviewProvider {
+struct LoginCardBottonView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginFooterView()
+        LoginCardBottonView()
     }
 }

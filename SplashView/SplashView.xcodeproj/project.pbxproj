@@ -8,31 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D37868DF27B6EEF100813CB7 /* Ferrari image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */; };
-		D37868E127B6FBAF00813CB7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E027B6FBAF00813CB7 /* CardView.swift */; };
-		D37868E327B70F6400813CB7 /* LoginFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E227B70F6400813CB7 /* LoginFooterView.swift */; };
-		D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1227B30049009CCCCB /* SplashViewApp.swift */; };
-		D39B4C1527B30049009CCCCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1427B30049009CCCCB /* ContentView.swift */; };
+		D37868E127B6FBAF00813CB7 /* LoginCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E027B6FBAF00813CB7 /* LoginCardView.swift */; };
+		D37868E327B70F6400813CB7 /* LoginCardBottonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37868E227B70F6400813CB7 /* LoginCardBottonView.swift */; };
+		D39B4C1327B30049009CCCCB /* LoginSplashViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1227B30049009CCCCB /* LoginSplashViewApp.swift */; };
+		D39B4C1527B30049009CCCCB /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C1427B30049009CCCCB /* LoginContentView.swift */; };
 		D39B4C1727B3004A009CCCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1627B3004A009CCCCB /* Assets.xcassets */; };
 		D39B4C1A27B3004A009CCCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */; };
-		D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */; };
+		D39B4C2127B302F3009CCCCB /* LoginSplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B4C2027B302F3009CCCCB /* LoginSplashScreenView.swift */; };
 		D3BF305D27BAEBD80093466A /* HertzUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3BF305C27BAEBD80093466A /* HertzUI */; };
 		D3BF306127BB109D0093466A /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF306027BB109D0093466A /* TypographyView.swift */; };
-		D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */; };
+		D3D9BE4F27B5C24E00942924 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BE4E27B5C24E00942924 /* LoginScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari image.jpeg"; sourceTree = "<group>"; };
-		D37868E027B6FBAF00813CB7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		D37868E227B70F6400813CB7 /* LoginFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFooterView.swift; sourceTree = "<group>"; };
+		D37868E027B6FBAF00813CB7 /* LoginCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCardView.swift; sourceTree = "<group>"; };
+		D37868E227B70F6400813CB7 /* LoginCardBottonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCardBottonView.swift; sourceTree = "<group>"; };
 		D39B4C0F27B30049009CCCCB /* SplashView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39B4C1227B30049009CCCCB /* SplashViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewApp.swift; sourceTree = "<group>"; };
-		D39B4C1427B30049009CCCCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D39B4C1227B30049009CCCCB /* LoginSplashViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSplashViewApp.swift; sourceTree = "<group>"; };
+		D39B4C1427B30049009CCCCB /* LoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = "<group>"; };
 		D39B4C1627B3004A009CCCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D39B4C1927B3004A009CCCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D39B4C2027B302F3009CCCCB /* LoginSplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSplashScreenView.swift; sourceTree = "<group>"; };
 		D39B4C2227B32DCE009CCCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D3BF306027BB109D0093466A /* TypographyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
-		D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D3D9BE4E27B5C24E00942924 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				D39B4C2227B32DCE009CCCCB /* Info.plist */,
-				D39B4C1227B30049009CCCCB /* SplashViewApp.swift */,
-				D39B4C1427B30049009CCCCB /* ContentView.swift */,
-				D39B4C2027B302F3009CCCCB /* SplashScreenView.swift */,
-				D3D9BE4E27B5C24E00942924 /* LoginScreen.swift */,
-				D37868E027B6FBAF00813CB7 /* CardView.swift */,
+				D39B4C1227B30049009CCCCB /* LoginSplashViewApp.swift */,
+				D39B4C1427B30049009CCCCB /* LoginContentView.swift */,
+				D39B4C2027B302F3009CCCCB /* LoginSplashScreenView.swift */,
+				D3D9BE4E27B5C24E00942924 /* LoginScreenView.swift */,
+				D37868E027B6FBAF00813CB7 /* LoginCardView.swift */,
 				D3BF306027BB109D0093466A /* TypographyView.swift */,
-				D37868E227B70F6400813CB7 /* LoginFooterView.swift */,
+				D37868E227B70F6400813CB7 /* LoginCardBottonView.swift */,
 				D39B4C1627B3004A009CCCCB /* Assets.xcassets */,
 				D37868DE27B6EEF000813CB7 /* Ferrari image.jpeg */,
 				D39B4C1827B3004A009CCCCB /* Preview Content */,
@@ -167,13 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39B4C1527B30049009CCCCB /* ContentView.swift in Sources */,
-				D3D9BE4F27B5C24E00942924 /* LoginScreen.swift in Sources */,
-				D39B4C1327B30049009CCCCB /* SplashViewApp.swift in Sources */,
-				D37868E327B70F6400813CB7 /* LoginFooterView.swift in Sources */,
-				D39B4C2127B302F3009CCCCB /* SplashScreenView.swift in Sources */,
+				D39B4C1527B30049009CCCCB /* LoginContentView.swift in Sources */,
+				D3D9BE4F27B5C24E00942924 /* LoginScreenView.swift in Sources */,
+				D39B4C1327B30049009CCCCB /* LoginSplashViewApp.swift in Sources */,
+				D37868E327B70F6400813CB7 /* LoginCardBottonView.swift in Sources */,
+				D39B4C2127B302F3009CCCCB /* LoginSplashScreenView.swift in Sources */,
 				D3BF306127BB109D0093466A /* TypographyView.swift in Sources */,
-				D37868E127B6FBAF00813CB7 /* CardView.swift in Sources */,
+				D37868E127B6FBAF00813CB7 /* LoginCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

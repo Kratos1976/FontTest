@@ -10,7 +10,7 @@ import HertzUI
 
 
 
-struct CardView: View {
+struct LoginCardView: View {
     // MARK: - PROPERTY
     @State private var username: String = ""
     @State private var password: String = ""
@@ -25,8 +25,8 @@ struct CardView: View {
                 }
 
             }, label: {
-                Image(systemName: $isPasswordShow.wrappedValue ? "eye.slash" : "eye").foregroundColor(.monochrome500)
-            })
+                    Image(systemName: $isPasswordShow.wrappedValue ? "eye.slash" : "eye").foregroundColor(.monochrome500)
+                })
 
             Text($isPasswordShow.wrappedValue ? "Hide" : "Show")
                 .font(.body4Regular())
@@ -38,56 +38,50 @@ struct CardView: View {
     // MARK: - BODY
     var body: some View {
         VStack {
-            VStack(alignment: .leading) {
-
-                Text("Log into Gold Plus Rewards.")
-                    .font(.heading6Bold())
-                    .padding(.bottom, 10)
-//                .padding(.leading, 24)
-            }
 
             // MARK: - HEADER
 
+            VStack(alignment: .leading) {
+                Text("Log into Gold Plus Rewards.")
+                    .font(.heading6Bold())
+                    .padding(.init(top: 24, leading: 24, bottom: 12, trailing: 24))
+                    .padding(.leading, -90)
+            }
+
             // MARK: - FORM INPUT
 
-            // MARK: - FORM SUBMIT
-
-            // MARK: - FOOTER
-//
-//            VStack(alignment: .leading) {
-//                Text("Log into Gold Plus Rewards.")
-//                    .font(.heading6Bold())
-//                    .padding(.bottom, 15)
-//            }
-
             VStack {
-
                 TextInputView($username, placeholder: "Member ID or username", prompt: "")
+                    .padding(.bottom, -23)
+
+
 
                 TextInputView($password, placeholder: "Password", prompt: "")
-                    .rightView({showHidePasswordButton})
+                    .rightView({ showHidePasswordButton })
                     .isSecureTextEntry(!isPasswordShow)
-                    .padding(0)
+
+                // MARK: - FORM SUBMIT
 
                 ButtonView.primary("Log in") {
                     print("Primary Button Pressed")
                 }.font(.button())
-                .padding(.top, 0)
+                    .padding(.top, -15)
 
-                LoginFooterView()
+                // MARK: - FOOTER
 
+                LoginCardBottonView()
             }
         }
-        .padding(24)
-        .frame(width: UIScreen.main.bounds.width - 48, height: 490)
-        .background(Color.white)
-        .cornerRadius(4)
-        .shadow(radius: 5)
+            .padding(24)
+            .frame(width: UIScreen.main.bounds.width - 48, height: 490)
+            .background(Color.white)
+            .cornerRadius(4)
+            .shadow(radius: 5)
     }
 }
 
-struct CardView_Previews: PreviewProvider {
+struct LoginCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        LoginCardView()
     }
 }

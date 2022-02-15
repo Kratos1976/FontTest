@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LoginContentView.swift
 //  SplashView
 //
 //  Created by skynet on 8/2/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginContentView: View {
     var body: some View {
         VStack {
             
@@ -17,6 +17,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginContentView()
     }
 }

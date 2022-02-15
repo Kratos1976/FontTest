@@ -26,8 +26,8 @@ struct LoginScreen: View {
 
                 VStack(alignment: .leading) {
                     LogoImage()
-                        .padding(.bottom, 33)
-                    CardView()
+                        .padding(.bottom, 30)
+                    LoginCardView()
                 }
 
             }

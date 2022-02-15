@@ -1,5 +1,5 @@
 //
-//  SplashScreenView.swift
+//  LoginSplashScreenView.swift
 //  SplashView
 //
 //  Created by skynet on 8/2/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import HertzUI
 
-struct SplashScreenView: View {
+struct LoginSplashScreenView: View {
     @State private var isActive = false
     @State private var opacityLogo: Double = 0
     @State private var opacityText: Double = 0
@@ -48,7 +48,7 @@ struct SplashScreenView: View {
 }
 struct SplashScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashScreenView()
+        LoginSplashScreenView()
     }
 }
 

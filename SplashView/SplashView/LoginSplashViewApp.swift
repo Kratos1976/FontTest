@@ -1,5 +1,5 @@
 //
-//  SplashViewApp.swift
+//  LoginSplashViewApp.swift
 //  SplashView
 //
 //  Created by skynet on 8/2/22.
@@ -9,14 +9,14 @@ import SwiftUI
 import HertzUI
 
 @main
-struct SplashViewApp: App {
+struct LoginSplashViewApp: App {
     init() {
         HertzUI.registerFonts()
     }
 
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
+            LoginSplashScreenView()
 
             //TODO: show login
         }
