@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8426B7B427BD732200271FA8 /* LoginViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426B7B327BD732200271FA8 /* LoginViewModels.swift */; };
 		D3A82C8C27BC54DD00E98DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A82C8B27BC54DD00E98DB2 /* AppDelegate.swift */; };
 		D3A82C8E27BC54DD00E98DB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A82C8D27BC54DD00E98DB2 /* SceneDelegate.swift */; };
 		D3A82C9027BC54DD00E98DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A82C8F27BC54DD00E98DB2 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8426B7B327BD732200271FA8 /* LoginViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModels.swift; sourceTree = "<group>"; };
 		D3A82C8827BC54DD00E98DB2 /* LoginUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A82C8B27BC54DD00E98DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A82C8D27BC54DD00E98DB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84422D9427BD614F001D47C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8426B7B327BD732200271FA8 /* LoginViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D3A82C7F27BC54DD00E98DB2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		D3A82CA827BC6E5300E98DB2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				84422D9427BD614F001D47C5 /* ViewModels */,
 				D3A82CB127BC6F6200E98DB2 /* LoginScreenView.swift */,
 				D3A82CB227BC6F6200E98DB2 /* LoginSplashScreenView.swift */,
 				D3A82CB527BC70AA00E98DB2 /* LoginScreenViewController.swift */,
@@ -208,6 +219,7 @@
 				D3A82CB427BC6F6200E98DB2 /* LoginSplashScreenView.swift in Sources */,
 				D3A82CB327BC6F6200E98DB2 /* LoginScreenView.swift in Sources */,
 				D3A82CB627BC70AA00E98DB2 /* LoginScreenViewController.swift in Sources */,
+				8426B7B427BD732200271FA8 /* LoginViewModels.swift in Sources */,
 				D3A82C8E27BC54DD00E98DB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
