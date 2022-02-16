@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3A82C8827BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplashDemo UI Kit to Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A82C8827BC54DD00E98DB2 /* LoginUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A82C8B27BC54DD00E98DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A82C8D27BC54DD00E98DB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3A82C8F27BC54DD00E98DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		D3A82C7F27BC54DD00E98DB2 = {
 			isa = PBXGroup;
 			children = (
-				D3A82C8A27BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI */,
+				D3A82C8A27BC54DD00E98DB2 /* LoginUIKit */,
 				D3A82C8927BC54DD00E98DB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		D3A82C8927BC54DD00E98DB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3A82C8827BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI.app */,
+				D3A82C8827BC54DD00E98DB2 /* LoginUIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3A82C8A27BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI */ = {
+		D3A82C8A27BC54DD00E98DB2 /* LoginUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				D3A82CA727BC6DF000E98DB2 /* Screens */,
@@ -89,7 +89,7 @@
 				D3A82CA127BC640D00E98DB2 /* Page3SwiftUIVIew.swift */,
 				D3A82CA327BC650400E98DB2 /* Page3ViewController.swift */,
 			);
-			path = "SplashDemo UI Kit to Swift UI";
+			path = LoginUIKit;
 			sourceTree = "<group>";
 		};
 		D3A82CA527BC6D5000E98DB2 /* Views */ = {
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3A82C8727BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI */ = {
+		D3A82C8727BC54DD00E98DB2 /* LoginUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3A82C9C27BC54DE00E98DB2 /* Build configuration list for PBXNativeTarget "SplashDemo UI Kit to Swift UI" */;
+			buildConfigurationList = D3A82C9C27BC54DE00E98DB2 /* Build configuration list for PBXNativeTarget "LoginUIKit" */;
 			buildPhases = (
 				D3A82C8427BC54DD00E98DB2 /* Sources */,
 				D3A82C8527BC54DD00E98DB2 /* Frameworks */,
@@ -135,12 +135,12 @@
 			);
 			dependencies = (
 			);
-			name = "SplashDemo UI Kit to Swift UI";
+			name = LoginUIKit;
 			packageProductDependencies = (
 				D3A82CB827BC73FC00E98DB2 /* HertzUI */,
 			);
 			productName = "SplashDemo UI Kit to Swift UI";
-			productReference = D3A82C8827BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI.app */;
+			productReference = D3A82C8827BC54DD00E98DB2 /* LoginUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3A82C8327BC54DD00E98DB2 /* Build configuration list for PBXProject "SplashDemo UI Kit to Swift UI" */;
+			buildConfigurationList = D3A82C8327BC54DD00E98DB2 /* Build configuration list for PBXProject "LoginUIKit" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3A82C8727BC54DD00E98DB2 /* SplashDemo UI Kit to Swift UI */,
+				D3A82C8727BC54DD00E98DB2 /* LoginUIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -358,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SplashDemo UI Kit to Swift UI/Info.plist";
+				INFOPLIST_FILE = LoginUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -369,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esteban.SplashDemo-UI-Kit-to-Swift-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esteban.LoginUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -385,7 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SplashDemo UI Kit to Swift UI/Info.plist";
+				INFOPLIST_FILE = LoginUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -396,7 +396,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esteban.SplashDemo-UI-Kit-to-Swift-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esteban.LoginUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -407,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3A82C8327BC54DD00E98DB2 /* Build configuration list for PBXProject "SplashDemo UI Kit to Swift UI" */ = {
+		D3A82C8327BC54DD00E98DB2 /* Build configuration list for PBXProject "LoginUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3A82C9A27BC54DE00E98DB2 /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3A82C9C27BC54DE00E98DB2 /* Build configuration list for PBXNativeTarget "SplashDemo UI Kit to Swift UI" */ = {
+		D3A82C9C27BC54DE00E98DB2 /* Build configuration list for PBXNativeTarget "LoginUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3A82C9D27BC54DE00E98DB2 /* Debug */,
