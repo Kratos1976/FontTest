@@ -8,12 +8,13 @@
 import SwiftUI
 import HertzUI
 
-
-
 struct LoginCardView: View {
     // MARK: - PROPERTY
-    @State private var username: String = ""
-    @State private var password: String = ""
+    @Binding var username: String
+    @Binding var password: String
+
+    var action: () -> Void
+
     @State private var isPasswordShow: Bool = false
 
     //TODO: move this to HertzUI
@@ -55,9 +56,8 @@ struct LoginCardView: View {
                     .isSecureTextEntry(!isPasswordShow)
 
                 // MARK: - FORM SUBMIT
-                ButtonView.primary("Log in") {
-                    print("Primary Button Pressed")
-                }.font(.button())
+                ButtonView.primary("Log in", action: action)
+                    .font(.button())
 
                 // MARK: - FOOTER
                 LoginCardBottonView()
@@ -72,7 +72,11 @@ struct LoginCardView: View {
 }
 
 struct LoginCardView_Previews: PreviewProvider {
+    @State static var username: String = ""
+    @State static var password: String = ""
     static var previews: some View {
-        LoginCardView()
+        LoginCardView(username: $username, password: $password, action: {
+
+        })
     }
 }

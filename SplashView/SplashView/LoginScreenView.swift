@@ -8,11 +8,19 @@
 import SwiftUI
 import HertzUI
 
+struct LogoImage: View {
+    var body: some View {
+        Image("logo_primary")
+    }
+}
+
 struct LoginScreen: View {
-    @State var username: String = ""
-    @State var password: String = ""
+//    @State var username: String = ""
+//    @State var password: String = ""
     @State private var isLoginValid: Bool = false
     @State private var shouldShowLoginAlert: Bool = false
+
+    @ObservedObject var viewModel = LoginScreenViewModel()
 
     var body: some View {
         GeometryReader { geometry in
@@ -25,7 +33,9 @@ struct LoginScreen: View {
                 VStack(alignment: .leading) {
                     LogoImage()
                         .padding(.bottom, 30)
-                    LoginCardView()
+                    LoginCardView(username: $viewModel.username, password: $viewModel.password, action: {
+                        viewModel.login()
+                    })
                 }
             }
         }
@@ -35,23 +45,5 @@ struct LoginScreen: View {
 struct LoginScreen_Previews: PreviewProvider {
     static var previews: some View {
         LoginScreen()
-    }
-}
-
-struct LogoImage: View {
-    var body: some View {
-        Image("logo_primary")
-    }
-}
-struct LogingButtonContent: View {
-    var body: some View {
-        Text("Log In")
-            .font(.button())
-//            .font(.button())
-            .foregroundColor(.black)
-            .padding()
-            .frame(width: 279, height: 41)
-            .background(Color.yellow)
-            .cornerRadius(5.0)
     }
 }
